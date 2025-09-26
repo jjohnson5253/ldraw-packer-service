@@ -1,7 +1,7 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "buildCommand": "cd ~ && wget -q https://library.ldraw.org/library/updates/complete.zip && unzip -q complete.zip && rm complete.zip && npm install"
+    "buildCommand": "npm install && cd ~ && wget -q https://library.ldraw.org/library/updates/complete.zip && unzip -q complete.zip && rm complete.zip"
   },
   "deploy": {
     "startCommand": "npm start"
